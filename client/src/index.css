@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.spinner{
+    height: 100vh;
+    background-color: rgba(86, 93, 99, 0.299);
+    align-items: center;
+}
+.spinnerm{padding-top: 300px;
+    align-items: center;
+    font-size:20px;
+    box-sizing: border-box;
+    size:100px
+}
+.spinner-border{
+    padding: 30px;
+    color: rgb(109, 161, 50);
+}
+
+
+/* rejiter */
+.rejister{
+background-color: azure;
+height: 100vh;
+font-family: sans-serif;
+align-items: center;
+text-align: center;
+display: flex;
+
+}
+.rejiterbox{
+    border-radius: 10px;
+    padding: 40px;
+    align-items: center;
+    box-shadow: -100px 2px 510px 0px rgb(48, 175, 156);
+    width: 500px;
+}
+.dashbutton{
+    font-weight:bold;
+}
+
+/* MINU BAR  */
+.navbaraaa{
+    width: 100%;
+    position:fixed;
+    overflow: hidden;
+    position: relative;
+
+}
+.bgnav{
+    background-color: rgb(224, 220, 220);
+    
+}
+.minuli{
+font-size: 20px ;
+padding-right:20px !important;
+padding-left:20px !important;
+font-family:monospace;
+font-weight: bold;
+}
+
+.ulnav{
+    margin-right: 150px !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer{
+    background-color: rgb(106, 199, 209);
+    display: flex;
+    margin-top: 30px;
+}
+.footercontent{
+    align-items: center;
+    width: 500px;
+    margin: auto;
+}
+.footercontent p{
+    font-size: 15px;
+    margin-top: 7px;
+    font-family: sans-serif;
+    align-items: center;
+}
+.ball{
+    font-size: 20px;
+    color: rgb(131, 212, 96);
+}
+.userbell a{
+text-decoration: none;
+color: black;
+}
+
+/* BODY */
+.pagebody{
+    min-height: 100vh;
+    padding-top:10px;
+}
+
+/* Notification */
+.notification{
+    height: 100vh;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.notificationmsg{
+    margin: 4px 0px;
+    background-color: rgb(161, 193, 220);
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+    display: block;
+
+}
+.belll{
+    padding-right: 10px !important;
+}
+.profilebar{
+margin-left:5px;  
+padding: 0px 5px;  
+}
+
+
+
+.doctorapoinmentbody{
+
+background-color: antiquewhite;
+
+height: 100vh;
+box-shadow: 0px 10px 200px rgb(86, 196, 80);
+
+}
+
+
+.liimage{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.liimage img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}

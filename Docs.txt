@@ -1,0 +1,19 @@
+server side
+
+* must need install for use this tamptate
+{
+npm install bcrypt body-parser color colors cors dotenv express express-rate-limit http-errors jsonwebtoken mongodb mongoose nodemailer xss-clean concurrently moment
+
+and
+npm i --save -dev morgan nodemon
+
+}
+
+
+*pakage.json
+
+  "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix ./my-app",
+    "dev": "concurrently \"npm run server \" \"npm run client\""
+
